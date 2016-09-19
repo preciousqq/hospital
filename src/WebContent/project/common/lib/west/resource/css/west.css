@@ -1,0 +1,342 @@
+@CHARSET "UTF-8";
+.kyee-slider-dot-w{
+	background-image:url(../images/dot_w.png) ;
+	background-repeat:no-repeat;
+	width:46px;
+	height:20px;
+	display:inline-block;
+	cursor: pointer;
+}
+
+.kyee-slider-dot-b{
+	background-image:url(../images/dot_b.png);
+	background-repeat:no-repeat;
+	width:46px;
+	height:20px;
+	display:inline-block;
+	cursor: pointer;
+}
+
+.kyee-calendar-last-btn-disable{
+	background-image:url(../images/last_s_disable.png);
+	background-repeat:no-repeat;
+	cursor: not-allowed;
+	float:left;
+	width:26px;
+	height:26px;
+	margin-top: 10px;
+	margin-left:10px;
+}
+
+.kyee-calendar-next-btn-disable{
+	background-image:url(../images/next_s_disable.png);
+	background-repeat:no-repeat;
+	cursor: not-allowed;
+	float:left;
+	width:26px;
+	height:26px;
+	margin-top: 10px;
+}
+.kyee-calendar-last-btn-enable{
+	background-image:url(../images/last_s_enable.png);
+	background-repeat:no-repeat;
+	cursor: pointer;
+	float:left;
+	width:26px;
+	height:26px;
+	margin-top: 10px;
+	margin-left:10px;
+}
+
+.kyee-calendar-next-btn-enable{
+	background-image:url(../images/next_s_enable.png);
+	background-repeat:no-repeat;
+	cursor: pointer;
+	float:left;
+	width:26px;
+	height:26px;
+	margin-top: 10px;
+}
+.kyee-calendar-last-btn-hover{
+	background-image:url(../images/last_s_h.png);
+	background-repeat:no-repeat;
+	cursor: pointer;
+	float:left;
+	width:26px;
+	height:26px;
+	margin-top: 10px;
+	margin-left:10px;
+}
+
+.kyee-calendar-next-btn-hover{
+	background-image:url(../images/next_s_h.png);
+	background-repeat:no-repeat;
+	cursor: pointer;
+	float:left;
+	width:26px;
+	height:26px;
+	margin-top: 10px;
+}
+.kyee-calendar-container{
+	float: left;
+	margin: 0 15px;
+}
+
+.kyee-calendar-container li{
+	position: relative;
+	float: left;
+	text-align: center;
+	padding: 0px 0;
+	width: 66px;
+	margin-right: 2px;
+}
+
+.kyee-calendar-container li .kyee-calendar-day{
+	font-size: 12px;
+	color: #888;
+	margin-bottom: 2px;
+	height:20px;
+	line-height:20px;
+}
+
+.kyee-calendar-container li .kyee-calendar-week{
+	font-weight:700;
+	color: #6B6B6B;
+	height:22px;
+	font-weight:bold;
+	line-height:22px;
+}
+.kyee-cardcalendar-ul .kyee-cardcalendar-ul-schedule-am{
+	border-bottom: 1px solid #eee;
+	padding-bottom: 6px;
+	margin-top: 20px;
+	height: 55px;
+}
+
+.kyee-cardcalendar-ul .kyee-cardcalendar-ul-schedule-pm{
+	padding-bottom: 12px;
+	padding-top: 6px;
+	height: 55px;
+}
+
+.kyee-cardcalendar-ul .kyee-cardcalendar-ul-schedule-am .am-text,
+.kyee-cardcalendar-ul .kyee-cardcalendar-ul-schedule-pm .pm-text
+{
+	font-size: 14px;
+	color: #aaa;
+	text-align: right;
+	float:left;
+	margin-top:15px;
+}
+.kyee-cardcalendar-disable-circle{
+	background-image:url(../images/disable_circle.png);
+	background-repeat:no-repeat;
+	cursor: not-allowed;
+	float:left;
+	width:53px;
+	height:55px;
+	margin-left: 15px;
+}
+.kyee-cardcalendar-enable-circle{
+	background-image:url(../images/enable_circle.png);
+	background-repeat:no-repeat;
+	cursor: pointer;
+	float:left;
+	width:53px;
+	height:55px;
+	margin-left: 15px;
+}
+.kyee-cardcalendar-enable-circle-hover{
+	background-image:url(../images/enable_circle_hover.png);
+	background-repeat:no-repeat;
+	cursor: pointer;
+	float:left;
+	width:53px;
+	height:55px;
+	margin-left: 15px;
+}
+.kyee-cardcalendar-appoint-booked{
+	background-image:url(../images/appoint_booked.png);
+	background-repeat:no-repeat;
+	cursor: not-allowed;
+	float:left;
+	width:53px;
+	height:55px;
+	margin-left: 15px;
+}
+
+.kyee-cardcalendar-out-service{
+	background-image:url(../images/out_service.png);
+	background-repeat:no-repeat;
+	cursor: not-allowed;
+	float:left;
+	width:53px;
+	height:55px;
+	margin-left: 15px;
+}
+.kyee-tooltip-bg{
+	background-image:url(../images/tooltip_bg.png);
+	width: 166px;
+	height: 64px;
+	background-repeat:no-repeat;
+	text-align: center;
+	line-height: 70px;
+	position:absolute;
+	display:none;
+	z-index:20;
+	font-size:14px;
+}
+
+.kyee-message-mask{
+	opacity:0.2;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=20);
+	background:black;
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	z-index:101;
+	display:none;
+}
+.kyee-message-win{
+	top:0;
+	height:0;
+	z-index:102;
+	position:fixed;
+	width:420px;
+	display:none;
+}
+.kyee-message-head{
+	background:#00A794;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	width:100%;
+	height:50px;
+	line-height:50px;
+}
+.kyee-message-head .head-img{
+	background-image:url(../images/message_tip.png);
+	background-repeat:no-repeat;
+	width: 18px;
+	height: 18px;
+	float:left;
+	margin-top:16px;
+}
+.kyee-message-head .head-text{
+	float:left;
+	margin-left:6px;
+	color:white;
+	font-weight:bold;
+	font-size:15px;
+}
+.kyee-message-head .close-img{
+	float:right;
+	margin:10px 10px 0 0;
+	background-image:url(../images/close.png);
+	background-repeat:no-repeat;
+	width: 18px;
+	height: 18px;
+	cursor:pointer;
+}
+.kyee-message-content{
+	padding:30px 20px;
+	background:white;
+	text-align:center;
+}
+.kyee-message-footer{
+	height:55px;
+	background:white;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	width:100%;
+}
+.kyee-message-confirm-button{
+	width:130px;
+	float:left;
+	height:30px;
+	line-height:30px;
+	border:1px solid #00A794;
+	color:white;
+	background:#00A794;
+	text-align:center;
+	border-radius:5px;
+	cursor:pointer;
+}
+.kyee-message-confirm-button-hover{
+	background:#008973;
+}
+.kyee-message-cancel-button{
+	float:left;
+	width:130px;
+	height:30px;
+	line-height:30px;
+	border:1px solid #00A794;
+	color:#00A794;
+	text-align:center;
+	border-radius:5px;
+	cursor:pointer;
+}
+.kyee-message-cancel-button-hover{
+	background:#f1f0f0;
+}
+.kyee-message-message{
+	padding:20px 50px;
+	border-radius:5px;
+	border:1px solid #00A794;
+	color:#059981;
+	background:white;
+	z-index:105;
+	font-size:14px;
+	position:fixed;
+	opacity:.9;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+}
+.kyee-waitingbox-img{
+	width:50px;
+	height:50px;
+	margin:auto;
+}
+.kyee-waitingbox-container{
+	top:0;
+	z-index:110;
+	position:fixed;
+	display:none;
+	padding:45px 30px 30px;
+	width:100px;
+	height:85px;
+	background:white;
+	border-radius:5px;
+	text-align:center;
+	color:#008973;
+	font-weight:bold;
+}
+.kyee-waitingbox-mask{
+	opacity:0.2;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=20);
+	background:black;
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	z-index:109;
+	display:none;
+}
+.kyee-combox-ul{
+	display:none;
+	position:absolute;
+	z-index:110;
+	background:white;
+	border:1px solid #dfdfdf;
+	border-radius:3px;
+}
+.kyee-combox-li{
+	height:30px;
+	line-height:30px;
+	cursor:pointer;
+	padding-left:5px;
+}
+.kyee-combox-li-hover{
+	height:30px;
+	cursor:pointer;
+	background:#EEE;
+}
